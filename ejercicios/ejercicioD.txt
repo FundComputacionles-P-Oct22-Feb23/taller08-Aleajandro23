@@ -1,0 +1,19 @@
+// D. Dados un arreglo
+// arreglo(5), i[0-n]
+// arreglo[0] <-- 10
+// arreglo[1] <-- 9
+// arreglo[2] <-- 20
+// arreglo[3] <-- 29
+// arreglo[4] <-- 100
+// Imprimir todos los valores del arreglo que pertencen a un índice par mayor o igual a 2
+
+1. Inicio
+2. arreglo(5), i[0-n]
+3. indice, i[0-n]
+
+4. Para (indice <-- 0, indice < 5, 1) haga
+5. 	Si (arreglo[indice] MOD 2 = 0 and arreglo[indice] >=2 ) entonces
+6.	    Escribir arreglo[indice]
+7.	FinSi
+8. FinPara
+9. Fin
